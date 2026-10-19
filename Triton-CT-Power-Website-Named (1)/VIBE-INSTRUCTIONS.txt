@@ -1,0 +1,9 @@
+VIBE BULK IMAGE UPDATE
+
+Use Website-WebP files for upload. PNG-Masters are editing masters, not a second set to upload. Read IMAGE-MAPPING.csv or JSON before changing the website. Match website_id to the exact product id in src/lib/products-catalog.ts or src/lib/site.ts. Filenames use the supplied website title where a corresponding entry is identified. These titles are website labels, not verified manufacturer model identities.
+
+CT POWER: Names follow the existing TR-01 to TR-24 gallery positions. The new hosted gallery image URLs could not be downloaded for byte comparison. Review the mapping against the current gallery before replacing. Several existing website titles/capacities conflict with the actual equipment; review_note lists visible contradictions. Do not infer diesel/electric, lithium, capacity, mast height or attachments from a filename. Preserve original CT Power branding and background watermark.
+
+HANGCHA: Website-Series-Candidates holds six family-level candidates named for website entries. These are NOT exact model matches. Confirm product suitability and specifications before replacing. Four lineup entries have no verified matching image; see the missing-image CSV. Additional-Catalogue-Images holds the other catalogue images, named by supplied catalogue series/caption; no existing website product assignment is implied. Do not add new products, delete products, duplicate one photo across capacity-specific entries or assign photos by colour alone.
+
+Keep existing website layout, product ids, URLs and non-image data unchanged. Flag conflicts for review rather than silently changing product specifications. Confirm each final image assignment against its source model/series.
